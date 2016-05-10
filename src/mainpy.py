@@ -10,10 +10,6 @@ import CDaytypeForecaster
 import CDayTypeClasificator
 
 
-
-
-
-
 # def add(a,b):
 #     pylab.close()
 #      

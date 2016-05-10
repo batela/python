@@ -45,11 +45,20 @@ class CDayTypeClasificator(object):
         print idx
         print centroids
         colors = ([([0.4,1,0.4],[1,0.4,0.4],[0.1,0.8,1])[i] for i in idx])
-         
+        indice = 0 
+        for dataItem in data:
+            if idx[indice] == 0:
+                pylab.plot(dataItem,'r')
+            elif idx[indice] == 1:
+                pylab.plot(dataItem,'g')
+            else:
+                pylab.plot(dataItem,'b')
+            indice+=1    
+        pylab.savefig('/tmp/kmeans.png') 
          
          
 #         pylab.plot(rawType,rawData,c=colors)
-        pylab.scatter(rawType,rawData,c=colors)
+        pylab.scatter(data,c=colors)
         pylab.savefig('/tmp/kmeans.png')
         # generate 3 sets of normally distributed points around
         # different means with different variances
