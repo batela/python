@@ -49,6 +49,8 @@ if __name__ == '__main__':
     print "INICIO"
     
 #     add(1,2)
+
+	# Nueva linea que meto en el codigo
    
     dtClasificator = CDayTypeClasificator.CDayTypeClasificator("")
     dtClasificator.createCluster()
