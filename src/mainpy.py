@@ -52,6 +52,7 @@ if __name__ == '__main__':
 
 	# Nueva linea que meto en el codigo
 	# Segunda linea de codigo
+
    
     dtClasificator = CDayTypeClasificator.CDayTypeClasificator("")
     dtClasificator.createCluster()
