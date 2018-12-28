@@ -55,7 +55,8 @@ if __name__ == '__main__':
 	# Esta seria la tercera linea de codigo
 	# Esta es la cuarta
 	# La quinta linea
-	# Sexta linea
+	# Esta es la linea 5.1 añadida tras la sexta
+	# Me vuelvo a arrepentir y pongo 5.2
 	
 	
     dtClasificator = CDayTypeClasificator.CDayTypeClasificator("")
